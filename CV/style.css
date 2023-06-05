@@ -10,6 +10,7 @@ section{
     max-width: 1700px;
     height: 630px;
     margin: 10% auto;
+    margin-bottom: 0;
 }
 
 #fila{
@@ -71,11 +72,16 @@ article ul li{
     list-style: none;
     width: 48%;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #info #redes{
     margin: 50px 0;
+}
+
+
+#experiencia{
+    margin-top: 5px;
 }
 
 #experiencia h2{
@@ -90,8 +96,8 @@ article ul li{
     color: white;
     font-size: 28px;
     font-family: 'Dosis', sans-serif;
-    list-style:circle;
-    margin-bottom: 5px;
+    list-style:none;
+    margin-bottom: 2px;
 }
 
 #experiencia ol li p{
@@ -100,5 +106,18 @@ article ul li{
     font-family: 'Dosis', sans-serif;
     list-style: none;
     margin-bottom: 20px;
+    margin-left: 1%;
     text-align: justify;
+    margin-top: 0;
+}
+
+#detalle a{
+    color: aqua;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+    margin-top: 0;
 }

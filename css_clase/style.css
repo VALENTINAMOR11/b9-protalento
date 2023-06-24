@@ -1,0 +1,23 @@
+body {
+  background-color:antiquewhite;
+}
+header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Nombre {
+  color: orange;
+  text-align: center;
+}
+
+.foto {
+    display: block;
+    border-radius: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+ol {
+  font-size: 22px;
+}

@@ -35,34 +35,73 @@
       </nav>
     </header>
     <main>
+      <div id="account-info">
+        <h5 id="number-account">
+          <span></span>
+        </h5>
+        <span>Mi saldo</span>
+        <h2 id="balance"></h2>
+      </div>
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#account-info" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Consultar saldo</button>
+          <button
+            class="nav-link"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#profile-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="profile-tab-pane"
+            aria-selected="false"
+          >
+            Ingresar monto
+          </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Ingresar monto</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Retirar Monto</button>
+          <button
+            class="nav-link"
+            id="contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#contact-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="contact-tab-pane"
+            aria-selected="false"
+          >
+            Retirar Monto
+          </button>
         </li>
       </ul>
-      <div class="tab-content text-center" id="myTabContent" >
-        <div class="tab-pane fade show active" id="account-info" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-          <h5 id="number-account">
-            <span></span>
-          </h5>
-          <span>Mi saldo</span>
-          <h2 id="balance"></h2>
+      <div class="tab-content text-center" id="myTabContent">
+        <div
+          class="tab-pane fade"
+          id="profile-tab-pane"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+          tabindex="0"
+        >
+          <form action="">
+            <label for="deposit-amount"> Ingrese el monto a depositar</label>
+            <input type="number" id="deposit-amount" />
+          </form>
+          <button id="deposit-button" class="btn btn-success">Depositar</button>
         </div>
-
-        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
- 
+        <div
+          class="tab-pane fade"
+          id="contact-tab-pane"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+          tabindex="0"
+        >
+          <form action="">
+            <label for="withdraw-amount"> Ingrese el monto a retirar</label>
+            <input type="number" id="withdraw-amount"/>
+          </form>
+          <button id="withdraw-button" class="btn btn-success">Retirar</button>
+        </div>
       </div>
 
-      <div class="text-center" >
-        
-      </div>
+      <div class="text-center"></div>
     </main>
 
     <footer></footer>

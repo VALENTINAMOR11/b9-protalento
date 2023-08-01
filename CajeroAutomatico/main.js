@@ -21,7 +21,7 @@ const users = [
     username: "NMIRANDAA",
     password: "1234",
     name: "Nelsy Miranda",
-    balance: 8000,
+    balance: 800,
     account: "2536 8965 7854",
   },
 ];
